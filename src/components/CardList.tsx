@@ -107,7 +107,7 @@ const CardList = ({title}:{title:string}) => {
                             /> */}
                             <User2 />
                         </div>
-                        <CardContent className="p-0">
+                        <CardContent className="p-0  w-4/5">
                             <CardTitle className="text-sm font-medium">{item.title}</CardTitle>
                             <Badge variant="outline">{item.badge}</Badge>
                         </CardContent>
